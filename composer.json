@@ -25,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Kevinkoenen\\LaravelShopper\\": "src"
+            "KevinKoenen\\LaravelShopper\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Kevinkoenen\\LaravelShopper\\Tests\\": "tests"
+            "KevinKoenen\\LaravelShopper\\Tests\\": "tests"
         }
     },
     "scripts": {
