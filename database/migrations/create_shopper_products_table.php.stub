@@ -21,6 +21,7 @@ class CreateProductsTable extends Migration
             $table->string('name');
             $table->string('slug');
             $table->text('description')->nullable();
+            $table->string('index_label')->nullable();
             $table->unsignedInteger('stock');
 
             $table->decimal('weight', 8, 2)->nullable();
