@@ -1,4 +1,4 @@
-# Very short description of the package
+# Laravel Shopper
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/kevinkoenen/laravel-shopper.svg?style=flat-square)](https://packagist.org/packages/kevinkoenen/laravel-shopper)
 [![Build Status](https://img.shields.io/travis/kevinkoenen/laravel-shopper/master.svg?style=flat-square)](https://travis-ci.org/kevinkoenen/laravel-shopper)
@@ -7,10 +7,12 @@
 
 This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what PSRs you support to avoid any confusion with users and contributors.
 
-# Package list
+# Package list to include and configure
 - Country list - https://github.com/Monarobase/country-list
 - VAT Calculator - https://github.com/mpociot/vat-calculator
 - Shopping Cart - https://github.com/bumbummen99/LaravelShoppingcart
+- Laravel Socialite - https://medium.com/@Alabuja/social-login-in-laravel-with-socialite-90dbf14ee0ab
+- Laravel Multi auth - https://stackoverflow.com/questions/40993143/how-to-use-authentication-on-custom-model-in-laravel and https://bannister.me/blog/setting-the-correct-auth-guard/
 
 ## Installation
 
