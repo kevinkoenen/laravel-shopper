@@ -2,7 +2,7 @@
 
 namespace KevinKoenen\LaravelShopper\Tests;
 
-use Kevinkoenen\LaravelShopper\LaravelShopperServiceProvider;
+use KevinKoenen\LaravelShopper\LaravelShopperServiceProvider;
 use Orchestra\Testbench\TestCase;
 
 class ExampleTest extends TestCase
