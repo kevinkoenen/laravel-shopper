@@ -21,7 +21,7 @@
         "laravel/socialite": "^4.4"
     },
     "require-dev": {
-        "orchestra/testbench": "^5.*",
+        "orchestra/testbench": "^5.3",
         "phpunit/phpunit": "^8.0"
     },
     "autoload": {
