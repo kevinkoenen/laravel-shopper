@@ -16,8 +16,8 @@
         }
     ],
     "require": {
-        "php": "^7.1",
-        "illuminate/support": "^6.0",
+        "php": "^7.3",
+        "illuminate/support": "^7.0",
         "laravel/socialite": "^4.4"
     },
     "require-dev": {
@@ -45,10 +45,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Kevinkoenen\\LaravelShopper\\LaravelShopperServiceProvider"
+                "KevinKoenen\\LaravelShopper\\LaravelShopperServiceProvider"
             ],
             "aliases": {
-                "LaravelShopper": "Kevinkoenen\\LaravelShopper\\LaravelShopperFacade"
+                "LaravelShopper": "KevinKoenen\\LaravelShopper\\LaravelShopperFacade"
             }
         }
     }
