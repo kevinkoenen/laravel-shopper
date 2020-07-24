@@ -1,6 +1,6 @@
 <?php
 
-namespace Kevinkoenen\LaravelShopper;
+namespace KevinKoenen\LaravelShopper;
 
 class LaravelShopper
 {

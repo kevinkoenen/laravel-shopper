@@ -1,6 +1,6 @@
 <?php
 
-namespace Kevinkoenen\LaravelShopper;
+namespace KevinKoenen\LaravelShopper;
 
 use Illuminate\Support\ServiceProvider;
 

@@ -1,11 +1,11 @@
 <?php
 
-namespace Kevinkoenen\LaravelShopper;
+namespace KevinKoenen\LaravelShopper;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \Kevinkoenen\LaravelShopper\Skeleton\SkeletonClass
+ * @see \KevinKoenen\LaravelShopper\Skeleton\SkeletonClass
  */
 class LaravelShopperFacade extends Facade
 {
