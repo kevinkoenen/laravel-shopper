@@ -35,6 +35,8 @@ class CreateProductsTable extends Migration
             $table->string('relatable_sort')->nullable();
             $table->string('upsellable_sort')->nullable();
 
+            $table->softDeletes();
+
             $table->index(['brand_id']);
             $table->foreign('brand_id')
                 ->references('id')

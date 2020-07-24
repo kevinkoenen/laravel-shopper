@@ -16,12 +16,12 @@ class LaravelShopperServiceProvider extends ServiceProvider
          */
         // $this->loadTranslationsFrom(__DIR__.'/../resources/lang', 'laravel-shopper');
         // $this->loadViewsFrom(__DIR__.'/../resources/views', 'laravel-shopper');
-        // $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
+        $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
         // $this->loadRoutesFrom(__DIR__.'/routes.php');
 
         if ($this->app->runningInConsole()) {
             $this->publishes([
-                __DIR__.'/../config/config.php' => config_path('laravel-shopper.php'),
+                __DIR__.'/../config/config.php' => config_path('shopper.php'),
             ], 'config');
 
             // Publishing the views.

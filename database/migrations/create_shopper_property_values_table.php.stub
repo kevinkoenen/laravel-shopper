@@ -19,7 +19,9 @@ class CreatePropertyValuesTable extends Migration
             $table->unsignedBigInteger('shopper_property_id');
             $table->string('value');
 
-            $table->foreign('shopper_property_id')->references('id')->on('shopper_properties');
+            $table->foreign('shopper_property_id')
+                ->references('id')
+                ->on('shopper_properties');
 
             $table->timestamps();
         });
