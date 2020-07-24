@@ -1,9 +1,9 @@
 <?php
 
-namespace Kevinkoenen\LaravelShopper\Tests;
+namespace KevinKoenen\LaravelShopper\Tests;
 
-use Orchestra\Testbench\TestCase;
 use Kevinkoenen\LaravelShopper\LaravelShopperServiceProvider;
+use Orchestra\Testbench\TestCase;
 
 class ExampleTest extends TestCase
 {
@@ -12,7 +12,7 @@ class ExampleTest extends TestCase
     {
         return [LaravelShopperServiceProvider::class];
     }
-    
+
     /** @test */
     public function true_is_true()
     {
